@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+}
+/*---------------HEADER-------------*/
+header {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.header_titulo {
+  text-align: left;
+  margin-left: 30px;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.header_titulo h1 {
+  color: white;
+  font-family: "Sofia";
+}
+
+.header_titulo h1 a
+ {
+  text-decoration: none;
+  color: white;
+}
+
+/*---------------fin HEADER-------------*/
+/*--------------- cuerpo-------------*/
+
+.cuerpo {
+  width: 98%;
+  margin-left: 1%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.cuerpo_portada{
+  width: 98%;
+  margin-left: 1%;
+  height: 200px;
+  position: absolute;
+    z-index: -1;
+}
+
+.cuerpo_portada img{
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  z-index: -1;
+}
+.portada_perfil{
+  width: 40%;
+  margin-left: 27%;
+  position: absolute;
+  z-index: 2;
+}
+
+.portada_perfil img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50% ;
+}
+
+
+/*--------------- fin cuerpo-------------*/
+
+/*--------------- footer-----------------*/
+
+footer {
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footer_legenda{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer_legenda h5{
+  color: white;
+  font-size: 12px;
+}
