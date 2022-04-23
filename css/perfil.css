@@ -69,6 +69,8 @@ a {
   margin-top: 10px;
 }
 
+
+
 .cuerpo_portada {
   width: 92%;
   position: absolute;
@@ -305,13 +307,13 @@ button {
 .archivos_perfil {
   width: 94%;
   margin-left: 3%;
-  height: 50px;
+  height: 60px;
   display: flex;
   flex-direction: row;
 }
 
 .archivos_perfil img {
-  margin-top: 5px;
+  margin-top: 7px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -320,9 +322,10 @@ button {
 .archivos_perfil h4 {
   margin-left: 10px;
   font-size: 20px;
-  margin-top: 10px;
+  margin-top: 15px;
   font-family: 'PT Sans', sans-serif;
   color: #F3F1E9;
+  font-weight: normal;
 }
 
 .archivos_contenido {
