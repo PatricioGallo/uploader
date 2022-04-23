@@ -144,7 +144,39 @@ color:white;
   margin-bottom: 20px;
 }
 
+.publicacion2_formulario{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
 
+.publicacion2_formulario h1{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.publicacion2_formulario label{
+  margin-left: 35px;
+  color: white;
+  font-size: 18px;
+}
+
+.publicacion2_formulario input[type=text]{
+  width: 80%;
+  padding: 5px 5px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10%;
+  margin-bottom: 20px;
+}
 
 .publicacion2_formulario textarea{
   width: 94%;
@@ -158,6 +190,16 @@ color:white;
 color:white;
 }
 
+.publicacion2_formulario button{
+  width: 90%;
+  margin-left: 5%;
+}
+
+.publicacion2_formulario #subir{
+width: 50%;
+margin-left: 25%;
+margin-bottom: 20px;
+}
 
 .cuerpo_publicacionPerfil{
 width: 100%;
